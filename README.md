@@ -10,5 +10,5 @@ Student Info
 =========================
 
 * Student Name: Nguyen Minh Hieu
-* Student ID: BI9-104.
+* Student ID: BI9-104
 
