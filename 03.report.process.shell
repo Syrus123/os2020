@@ -1,0 +1,57 @@
+Command:syrus@Syrus89:~$ ps man
+  PID TTY      STAT   TIME COMMAND
+   - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+10310 pts/0    -      0:00 bash
+    - -        Ss     0:00 -
+10320 pts/0    -      0:00 ps man
+    - -        R+     0:00 -
+Command:syrus@Syrus89:~$ firefox
+
+Command:syrus@Syrus89:~$ ps man | grep firefox| awk '{print $1}'
+1745
+1868
+1975
+3515
+4087
+4314
+5243
+11285
+11379
+11438
+
+Command:cat/proc/1745/status
+ame:	firefox
+Umask:	0002
+State:	S (sleeping)
+Tgid:	1745
+Ngid:	0
+Pid:	1745
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	512
+Groups:	4 24 27 30 46 116 126 1000 
+NStgid:	1745
+NSpid:	1745
+NSpgid:	1144
+NSsid:	1144
+Command:syrus@Syrus89:~$ kill STOP 1745
+Command:syrus@Syrus89:~$ kill CONT 1745
+Command:syrus@Syrus89:~$ kill KILL 1745
+
+
+

@@ -1,0 +1,61 @@
+syrus@Syrus89:~$ echo hello world
+hello world
+Command:syrus@Syrus89:~$ passwd
+Changing password for syrus.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+Command:passwd: password updated successfully
+Command:syrus@Syrus89:~$ date
+Thứ năm, 16 Tháng 1 năm 2020 09:06:35 +07
+Command:syrus@Syrus89:~$ hostname
+Syrus89
+Command:syrus@Syrus89:~$ arch
+x86_64
+Command:syrus@Syrus89:~$ uname -a
+Linux Syrus89 5.0.0-37-generic #40~18.04.1-Ubuntu SMP Thu Nov 14 12:06:39 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+Command:syrus@Syrus89:~$ dmesg
+[   99.831119] mce: CPU2: Package temperature/speed normal
+[   99.831120] mce: CPU9: Package temperature/speed normal
+[   99.831121] mce: CPU6: Package temperature/speed normal
+[   99.831122] mce: CPU0: Package temperature/speed normal
+[   99.831122] mce: CPU3: Package temperature/speed normal
+[   99.831123] mce: CPU8: Package temperature/speed normal
+[   99.831124] mce: CPU5: Package temperature/speed normal
+[   99.831124] mce: CPU11: Package temperature/speed normal
+[   99.831126] mce: CPU10: Package temperature/speed normal
+[   99.831126] mce: CPU4: Package temperature/speed normal
+Command:syrus@Syrus89:~$ uptime
+ 09:12:03 up 7 min,  1 user,  load average: 0,40, 0,69, 0,47
+Command:syrus@Syrus89:~$ who am i(cant run)
+Command:syrus@Syrus89:~$ whoami
+syrus
+Command:syrus@Syrus89:~$ who
+syrus    :0           2020-01-16 09:05 (:0)
+Command:syrus@Syrus89:~$ id
+uid=1000(syrus) gid=1000(syrus) groups=1000(syrus),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+Command:syrus@Syrus89:~$ last
+syrus    :0           :0               Thu Jan 16 09:05   still logged in
+reboot   system boot  5.0.0-37-generic Thu Jan 16 09:04   still running
+reboot   system boot  5.0.0-37-generic Thu Jan 16 09:03 - 09:04  (00:00)
+syrus    :0           :0               Thu Jan 16 15:38 - 09:03  (-6:35)
+reboot   system boot  5.0.0-37-generic Thu Jan 16 15:38 - 09:03  (-6:34)
+syrus    :0           :0               Thu Jan 16 07:13 - 00:18  (-6:54)
+reboot   system boot  5.0.0-37-generic Thu Jan 16 07:13 - 00:19  (-6:54)
+syrus    :0           :0               Tue Jan 14 00:06 - 17:07  (-6:58)
+reboot   system boot  5.0.0-37-generic Tue Jan 14 00:05 - 17:07  (-6:57)
+syrus    :0           :0               Sun Jan 12 23:41 - down   (00:06)
+reboot   system boot  5.0.0-37-generic Sun Jan 12 23:40 - 23:47  (00:06)
+syrus    :0           :0               Sun Jan 12 23:05 - down   (00:26)
+reboot   system boot  5.0.0-37-generic Sun Jan 12 23:05 - 23:32  (00:26)
+
+wtmp begins Sun Jan 12 23:05:11 2020
+Command:syrus@Syrus89:~$ finger
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+syrus     Syrus     *:0             Jan 16 09:05 (:0)
+Command:syrus@Syrus89:~$ w
+ 09:12:53 up 8 min,  1 user,  load average: 0,31, 0,62, 0,45
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+syrus    :0       :0               09:05   ?xdm?  46.09s  0.01s /usr/lib/gdm3/g
+
+
