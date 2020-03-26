@@ -1,0 +1,6 @@
+syrus@Syrus89:~$ pidof firefox
+10103 4211 2627 2306 2069 2033 1786
+syrus@Syrus89:~$ ps -o nlwp 10103
+NLWP
+  24
+
